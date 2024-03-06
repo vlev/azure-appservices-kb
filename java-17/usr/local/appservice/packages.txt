@@ -1,0 +1,4 @@
+                                           PACKAGE |                             VERSION | COMMIT
+       Microsoft.AppService.WebsitesExtensionsJava |                         1.0.0250117 | 
+                                          0a01496e |                                    | 
+                                              self |                         1.0.0250556 | e16c7680
