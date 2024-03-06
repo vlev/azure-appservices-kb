@@ -1,0 +1,160 @@
+[
+    {
+        "Id": "sha256:a0d275bc606cf5e61c9a94e72d1ea4f84702ccdc127d1bc53f3a70b6979392f9",
+        "RepoTags": [
+            "mcr.microsoft.com/azure-app-service/java:17-java17_20231113"
+        ],
+        "RepoDigests": [
+            "mcr.microsoft.com/azure-app-service/java@sha256:dbad22ba1100bb21199bdb0373ea04afb9d25a7a5767521d2a230daf4dee0c0f"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2023-11-10T21:44:37.268866721Z",
+        "Container": "acfec2a47bd43ea9a03ad760a65ee9d49220bd1f4c2de215fcc5bafd377e9aa3",
+        "ContainerConfig": {
+            "Hostname": "acfec2a47bd4",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "2222/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_HOME=/usr/lib/jdk",
+                "GIT_COMMIT=",
+                "PORT=80",
+                "SSH_PORT=2222"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "LABEL image.base.ref.name=mcr.microsoft.com/mirror/docker/library/ubuntu:22.04"
+            ],
+            "Image": "sha256:eac388d60ebce154a708061f58f2cab3d2aa6f85d218a87d53422e63e4567902",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/init_container.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.visualstudio.msazure.image.build.buildnumber": "1.0.02505.56",
+                "com.visualstudio.msazure.image.build.builduri": "vstfs:///Build/Build/82755163",
+                "com.visualstudio.msazure.image.build.definitionname": "AAPT-Antares-Websites-Containers-Images-Official",
+                "com.visualstudio.msazure.image.build.repository.name": "AAPT-Antares-Websites-Containers-Images",
+                "com.visualstudio.msazure.image.build.repository.uri": "https://msazure.visualstudio.com/One/_git/AAPT-Antares-Websites-Containers-Images",
+                "com.visualstudio.msazure.image.build.sourcebranchname": "master",
+                "com.visualstudio.msazure.image.build.sourceversion": "e16c76801f4fbbe17571c42f5fc123edd0263b12",
+                "com.visualstudio.msazure.image.system.teamfoundationcollectionuri": "https://msazure.visualstudio.com/",
+                "com.visualstudio.msazure.image.system.teamproject": "One",
+                "image.base.digest": "sha256:2b7412e6465c3c7fc5bb21d3e6f1917c167358449fecac8176c6e496e5c1f05f",
+                "image.base.ref.name": "mcr.microsoft.com/mirror/docker/library/ubuntu:22.04",
+                "maintainer": "Azure App Services Container Images <appsvc-images@microsoft.com>",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "DockerVersion": "24.0.7",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "2222/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "JAVA_HOME=/usr/lib/jdk",
+                "GIT_COMMIT=",
+                "PORT=80",
+                "SSH_PORT=2222"
+            ],
+            "Cmd": null,
+            "Image": "sha256:eac388d60ebce154a708061f58f2cab3d2aa6f85d218a87d53422e63e4567902",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/init_container.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.visualstudio.msazure.image.build.buildnumber": "1.0.02505.56",
+                "com.visualstudio.msazure.image.build.builduri": "vstfs:///Build/Build/82755163",
+                "com.visualstudio.msazure.image.build.definitionname": "AAPT-Antares-Websites-Containers-Images-Official",
+                "com.visualstudio.msazure.image.build.repository.name": "AAPT-Antares-Websites-Containers-Images",
+                "com.visualstudio.msazure.image.build.repository.uri": "https://msazure.visualstudio.com/One/_git/AAPT-Antares-Websites-Containers-Images",
+                "com.visualstudio.msazure.image.build.sourcebranchname": "master",
+                "com.visualstudio.msazure.image.build.sourceversion": "e16c76801f4fbbe17571c42f5fc123edd0263b12",
+                "com.visualstudio.msazure.image.system.teamfoundationcollectionuri": "https://msazure.visualstudio.com/",
+                "com.visualstudio.msazure.image.system.teamproject": "One",
+                "image.base.digest": "sha256:2b7412e6465c3c7fc5bb21d3e6f1917c167358449fecac8176c6e496e5c1f05f",
+                "image.base.ref.name": "mcr.microsoft.com/mirror/docker/library/ubuntu:22.04",
+                "maintainer": "Azure App Services Container Images <appsvc-images@microsoft.com>",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 464850504,
+        "VirtualSize": 464850504,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/13b77649be366b6d5d734880eb98fdf4c1cdc7b11cf585ba91181cdb51a97901/diff:/var/lib/docker/overlay2/649eff7ab659785679cbb3b1eb3b57025ed8e08f860de92a7f219033b53cb33a/diff:/var/lib/docker/overlay2/7da7f7776c59706d64c535e13b4150d2d68155bb366be679ff6e1313c84354e0/diff:/var/lib/docker/overlay2/9f40a99dc2e6a8e6d03fc7d8dfa7efffa2360a4ae5dfb0c5987d48871c7510aa/diff:/var/lib/docker/overlay2/0241103b20fa09ce959fdb520cbf959b709ad24ab8d18a0f2ab3ab30b64f4782/diff:/var/lib/docker/overlay2/c0093737535ffbda58711ed3ecf41e3db697980f33b2895ca050aa93c7138136/diff:/var/lib/docker/overlay2/ba193dea1fbd0fe917e07febbda3dc55553ae76f51e1d7f21cc1cf86c25479bd/diff:/var/lib/docker/overlay2/437b4bd0ac4c0265c37388af6ce22423ba7d8f6ffd16d663d48ac404ab21d569/diff:/var/lib/docker/overlay2/34fb546a3f6c93656701976c5fa4000b06d37f92dbd0f09266837d37f53c0b3b/diff:/var/lib/docker/overlay2/388a2de40d93780734528953463464d0ad7ce8b445d183bbf71aa95690afc133/diff:/var/lib/docker/overlay2/377bb044bc52a0e809c55bc5db71429c1711be00ef1c7cbe8b74dd0b3db57f08/diff:/var/lib/docker/overlay2/516ce7df54f55fd7f3d5042feee5614efb50c1b227db16c3cd7c98ecf997ac55/diff:/var/lib/docker/overlay2/98421bf4f711217a37a550b929a8bb9fb90b8011289aa6d08d887e22a719469f/diff:/var/lib/docker/overlay2/d7d86ef46cd67fdd9042287b93f24cb952672fdd63a7c274fd7917684f8a3eff/diff:/var/lib/docker/overlay2/600a0cd78d06288c7f3dca980db16e3e22baa572e89062f747654b9477ee239e/diff:/var/lib/docker/overlay2/24ee68b15611c8a3041ce611fca3fef8c04d2017770002bf1069073ba09c850b/diff:/var/lib/docker/overlay2/26ddc9efe275487a9760b17d5e29e5497da173ae6052459874686e27e91d5781/diff:/var/lib/docker/overlay2/7d9a47e57ea9527c3a49ec8fd638b9de982350b30b4f475b085f9fe929dd5f58/diff",
+                "MergedDir": "/var/lib/docker/overlay2/29e28e60f07ae4813f8c3449136f69c0e086207fc3f554058739bafb73831847/merged",
+                "UpperDir": "/var/lib/docker/overlay2/29e28e60f07ae4813f8c3449136f69c0e086207fc3f554058739bafb73831847/diff",
+                "WorkDir": "/var/lib/docker/overlay2/29e28e60f07ae4813f8c3449136f69c0e086207fc3f554058739bafb73831847/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:256d88da41857db513b95b50ba9a9b28491b58c954e25477d5dad8abb465430b",
+                "sha256:497896e69dae53e8b73b8b5de3634a6846ad0bc962492567263e27fce53a1a62",
+                "sha256:93fa096d9569b55bbc8050be05a3c1508e0cd57d73b592273d0e3849436a90f7",
+                "sha256:e9723a7cbdabeaee1c75e14d768536333bd718872e138913c1202acb9f994b9a",
+                "sha256:7bbc1d58086e866812824444567308bb99bd09fb30acd615f58cef49298344e4",
+                "sha256:8cd1f1fc720714d30c0865b01ce32d27532a59069ef712c8b1a54241831f3e2a",
+                "sha256:235bedf219afe8fc48342e95e5e87dad69cb701f24266d0fce76c244ca43d87a",
+                "sha256:40d4bb0520946750808762be0ef9681531d66a24d2190b472ef3b402b1b17756",
+                "sha256:e6e8ea5ca936a3f056979755d9123db58f7d5497551f40f7772dabc53a97149a",
+                "sha256:47e47037e303599cc44e98ad14e808f30906f29d0b5db03b94e1bac0ff10a9e7",
+                "sha256:aa737f78598d172614defcef958d02f720beb584828a0cf8938abc87783b45c7",
+                "sha256:002feb9fd35af9947326e5a3e756bbc9a5bcdd30c530108efa18639d6c726765",
+                "sha256:39ba5f902d6dce3fdd85f1994f979dcefae74d1cc743e9e9335324681d9bab66",
+                "sha256:0061cdf62a75c162e770461697e419459fc9883b315663e4a5bc264912a4f27e",
+                "sha256:3a19742ccdaafc707292070fe4c731d45b1154b5a0de2c082b29aaf0512afbde",
+                "sha256:034393eadcc270003f10e8ee40644b2df357e68cdc2def8ac939383ab8602b5c",
+                "sha256:0678925d6cf3c5da94da79366e3009544f5177ab50c76ede076a25f7ead20630",
+                "sha256:da5110bec77fefaff17d5ee0a944957b1709bb4e6aa8952fc5ce173494899619",
+                "sha256:6f57389709d795a09b60443a359a08afbf748b5d79ad106035dcd6cbc56f39df"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
